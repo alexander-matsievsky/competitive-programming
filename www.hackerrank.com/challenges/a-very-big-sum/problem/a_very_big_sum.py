@@ -1,4 +1,4 @@
-def simple_array_sum(ar: [int]) -> int:
+def a_very_big_sum(ar: [int]) -> int:
     sum_ = 0
     for x in ar:
         sum_ += x
@@ -6,6 +6,6 @@ def simple_array_sum(ar: [int]) -> int:
 
 
 if __name__ == "__main__":
-    n = int(input())
+    ar_count = int(input().strip())
     ar = list(map(int, input().strip().split()))
-    print(simple_array_sum(ar))
+    print(a_very_big_sum(ar))
