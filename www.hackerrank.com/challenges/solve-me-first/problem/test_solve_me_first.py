@@ -1,7 +1,6 @@
 from hypothesis import given
 from hypothesis import strategies as st
-
-from . import solve_me_first
+from solve_me_first import solve_me_first
 
 
 def test_hackerrank():
