@@ -1,0 +1,26 @@
+repos:
+  - hooks:
+      - args:
+          - '--in-place'
+          - '--aggressive'
+          - '--aggressive'
+          - '--recursive'
+        id: autopep8
+        language_version: python3
+    repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.6.0
+  - hooks:
+      - args:
+          - '--line-length=90'
+        id: black
+        language_version: python3
+    repo: https://github.com/psf/black
+    rev: 22.3.0
+  - hooks:
+      - args:
+          - '--multi-line=3'
+          - '--profile=black'
+        id: isort
+        language_version: python3
+    repo: https://github.com/PyCQA/isort
+    rev: 5.10.1
