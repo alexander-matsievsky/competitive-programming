@@ -9,13 +9,13 @@ dependencies:
   - attrs=21.4.0=pyhd3eb1b0_0
   - black=19.10b0=py_0
   - bzip2=1.0.8=h7b6447c_0
-  - ca-certificates=2022.5.18.1=ha878542_0
-  - certifi=2022.5.18.1=py310hff52083_0
+  - ca-certificates=2022.4.26=h06a4308_0
+  - certifi=2022.5.18.1=py310h06a4308_0
   - cffi=1.15.0=py310hd667e15_1
   - cfgv=3.3.1=pyhd8ed1ab_0
   - click=8.0.4=py310h06a4308_0
-  - distlib=0.3.4=pyhd8ed1ab_0
-  - filelock=3.7.0=pyhd8ed1ab_0
+  - distlib=0.3.2=pyhd3eb1b0_0
+  - filelock=3.6.0=pyhd3eb1b0_0
   - hypothesis=6.29.3=pyhd3eb1b0_0
   - identify=2.5.1=pyhd8ed1ab_0
   - iniconfig=1.1.1=pyhd3eb1b0_0
@@ -30,24 +30,22 @@ dependencies:
   - mypy_extensions=0.4.3=py310h06a4308_0
   - ncurses=6.3=h7f8727e_2
   - nodeenv=1.6.0=pyhd8ed1ab_0
-  - openssl=1.1.1o=h166bdaf_0
+  - openssl=1.1.1o=h7f8727e_0
   - packaging=21.3=pyhd3eb1b0_0
   - pathspec=0.7.0=py_0
   - pip=21.2.4=py310h06a4308_0
-  - platformdirs=2.5.1=pyhd8ed1ab_0
   - pluggy=1.0.0=py310h06a4308_1
   - pre-commit=2.19.0=py310hff52083_0
   - py=1.11.0=pyhd3eb1b0_0
-  - pycparser=2.21=pyhd8ed1ab_0
+  - pycparser=2.21=pyhd3eb1b0_0
   - pyparsing=3.0.4=pyhd3eb1b0_0
   - pytest=7.1.1=py310h06a4308_0
   - python=3.10.4=h12debd9_0
   - python_abi=3.10=2_cp310
-  - pyyaml=6.0=py310h5764c6d_4
   - readline=8.1.2=h7f8727e_1
   - regex=2022.3.15=py310h7f8727e_0
   - setuptools=61.2.0=py310h06a4308_0
-  - six=1.16.0=pyh6c4a22f_0
+  - six=1.16.0=pyhd3eb1b0_1
   - sortedcontainers=2.4.0=pyhd3eb1b0_0
   - sqlite=3.38.3=hc218d9a_0
   - tk=8.6.11=h1ccaba5_1
@@ -57,10 +55,12 @@ dependencies:
   - typing_extensions=4.1.1=pyh06a4308_0
   - tzdata=2022a=hda174b7_0
   - ukkonen=1.0.1=py310hbf28c38_2
-  - virtualenv=20.14.1=py310hff52083_0
+  - virtualenv=20.4.6=py310h06a4308_1
   - wget=1.21.3=h0b77cf5_0
   - wheel=0.37.1=pyhd3eb1b0_0
   - xz=5.2.5=h7f8727e_1
-  - yaml=0.2.5=h7f98852_2
+  - yaml=0.2.5=h7b6447c_0
   - zlib=1.2.12=h7f8727e_2
+  - pip:
+    - pyyaml==6.0
 prefix: /home/alexander-matsievsky/.miniconda3/envs/competitive-programming

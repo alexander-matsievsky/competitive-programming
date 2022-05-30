@@ -5,9 +5,7 @@ from insert_node_at_position import SinglyLinkedList
 
 def test_hackerrank():
     head, data, position = [16, 13, 7], 1, 2
-    singly_linked_list = SinglyLinkedList()
-    for i, x in enumerate(head):
-        singly_linked_list.insert_node_at_position(data=x, position=i)
+    singly_linked_list = SinglyLinkedList.from_elements(head)
     singly_linked_list.insert_node_at_position(data=data, position=position)
     assert [*singly_linked_list] == [16, 13, 1, 7]
 
@@ -24,8 +22,6 @@ def list_(draw):
 @given(list_())
 def test_hypothesis(_):
     head, data, position = _
-    singly_linked_list = SinglyLinkedList()
-    for i, x in enumerate(head):
-        singly_linked_list.insert_node_at_position(data=x, position=i)
+    singly_linked_list = SinglyLinkedList.from_elements(head)
     singly_linked_list.insert_node_at_position(data=data, position=position)
     assert [*singly_linked_list] == [*head[:position], data, *head[position:]]
