@@ -1,6 +1,6 @@
+from delete_duplicate_value_nodes_from_a_sorted_linked_list import SinglyLinkedList
 from hypothesis import given
 from hypothesis import strategies as st
-from remove_duplicates import SinglyLinkedList
 
 
 def test_hackerrank():

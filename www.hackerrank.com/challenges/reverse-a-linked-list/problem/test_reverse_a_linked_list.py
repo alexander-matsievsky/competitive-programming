@@ -1,6 +1,6 @@
 from hypothesis import given
 from hypothesis import strategies as st
-from reverse import SinglyLinkedList
+from reverse_a_linked_list import SinglyLinkedList
 
 
 def test_hackerrank():

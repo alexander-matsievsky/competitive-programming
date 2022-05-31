@@ -1,4 +1,4 @@
-from compare_triplets import compare_triplets
+from compare_the_triplets import compare_triplets
 from hypothesis import given
 from hypothesis import strategies as st
 

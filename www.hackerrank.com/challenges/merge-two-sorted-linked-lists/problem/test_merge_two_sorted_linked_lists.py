@@ -1,6 +1,6 @@
 from hypothesis import given
 from hypothesis import strategies as st
-from merge_lists import SinglyLinkedList, merge_lists
+from merge_two_sorted_linked_lists import SinglyLinkedList, merge_lists
 
 
 def test_hackerrank():

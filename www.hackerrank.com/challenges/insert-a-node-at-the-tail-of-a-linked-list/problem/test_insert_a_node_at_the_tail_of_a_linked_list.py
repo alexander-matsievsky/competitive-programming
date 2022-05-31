@@ -1,6 +1,6 @@
 from hypothesis import given
 from hypothesis import strategies as st
-from insert_node_at_tail import SinglyLinkedList
+from insert_a_node_at_the_tail_of_a_linked_list import SinglyLinkedList
 
 
 def test_hackerrank():
